@@ -16,7 +16,7 @@ image = Image.open('market.jpg')
 
 st.image(image, caption='Market by google images')
 
-supermar = pd.read_csv(r'/Users/jaimesastrecrespo/DAFT_1022/module_2/Project_Week_5/supermar_clean2.csv')
+supermar = pd.read_csv(r'/Users/jaimesastrecrespo/supermar_clean2.csv')
 supermar.head()
 
 #cleaning done in script try_project.ipynb, imported the clean data
