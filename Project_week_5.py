@@ -25,7 +25,7 @@ supermar.head()
 
 ######### STREAMLIT #######
 
-
+colors = ["#14171A"]
 sns.set_palette(sns.color_palette(colors))
 
 #sns.cubehelix_palette(start=2, rot=0, dark=0, light=.95, reverse=True, as_cmap=True)
