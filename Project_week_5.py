@@ -16,6 +16,7 @@ image = Image.open('market.jpg')
 
 st.image(image, caption='Market by google images')
 
+
 supermar = pd.read_csv(r'/Users/jaimesastrecrespo/Project-streamlit/supermar_clean2.csv')
 supermar.head()
 
